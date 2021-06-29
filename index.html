@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crossball</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+
+    <header class="header">
+      <img class="header__logo" src="./images/logo.svg" alt="logo" />
+      <img class="header__burger" src="./images/burger.png" alt="burger" />
+      <nav class="header__nav">
+        <a href="#" target="_blank" class="header__text">Расписание</ф>
+        <a href="#" target="_blank" class="header__text">Игровые отчёты</a>
+        <a href="#" target="_blank" class="header__text">Статистика</a>
+        <p class="header__text_more">Ещё</p>
+        <img class="header__arrow" src="./images/down.png" alt="arrow" />
+      </nav>
+      <img class="header__image" src="./images/football.png" alt="ball" />
+      <img class="header__arrow" src="./images/down.png" alt="arrow" />
+      <img class="header__image" src="./images/ava.png" alt="ava" />
+      <img class="header__image" src="./images/bag.png" alt="bag" />
+    </header>
+
+    <main class="main">
+
+      <div class="content">
+
+        <section class="profile">
+          <article class="profile__card">
+            <img class="profile__ava" src="./images/avaMax.png" alt="avaMax" />
+            <div class="profile__info">
+              <p class="profile__num">89.40</p>
+              <p class="profile__name">Елишакашвили Михо</p>
+            </div>
+            <div class="profile_rate">
+              999<img src="./images/ratio.png" alt="ratio" />
+            </div>
+            <div class="profile__edit">
+              <img src="./images/edit.png" alt="edit" />
+              <p class="profile__text">Редактировать</p>
+            </div>
+          </article>
+          <article class="profile__texts">
+            <button class="profile__button dropdown">
+              <img
+                class="profile__image"
+                src="./images/user.png"
+                alt="user"
+              />Статистика
+            </button>
+            <ul class="profile__ul dropdown-list">
+              <li class="profile__li">Футбол</li>
+              <li class="profile__li">Баскетбол</li>
+              <li class="profile__li">Волейбол</li>
+            </ul>
+            <div class="profile__par">
+              <img
+                class="profile__image"
+                src="./images/calendar.png"
+                alt="calendar"
+              />Ближайшие игры
+            </div>
+            <div class="profile__par">
+              <img
+                class="profile__image"
+                src="./images/report.png"
+                alt="report"
+              />Игровые отчёты
+            </div>
+            <div class="profile__par">
+              <img
+                class="profile__image"
+                src="./images/history.png"
+                alt="history"
+              />История заказов
+            </div>
+            <div class="profile__par">
+              <img
+                class="profile__image"
+                src="./images/logout.png"
+                alt="out"
+              />Выйти
+            </div>
+          </article>
+        </section>
+
+        <section class="info">
+
+          <article class="tables">
+            <div class="shields">
+              <p class="shields__text">Награды и достижения</p>
+              <div class="shields__up">
+                <img
+                  class="shields__image"
+                  src="./images/shield5.png"
+                  alt="shield"
+                />
+                <img
+                  class="shields__image"
+                  src="./images/shield5.png"
+                  alt="shield"
+                />
+                <img
+                  class="shields__image"
+                  src="./images/shield99.png"
+                  alt="shield"
+                />
+                <div>
+                  <img
+                    class="shields__image_nuar"
+                    src="./images/shieldnuar.png"
+                    alt="shield"
+                  />
+                  <img
+                    class="shields__image_nuar"
+                    src="./images/shieldnuar.png"
+                    alt="shield"
+                  />
+                </div>
+              </div>
+              <div class="shields__line"></div>
+              <div>
+                <img src="./images/shield.png" alt="shield" />
+                <img src="./images/shield.png" alt="shield" />
+                <img src="./images/shield.png" alt="shield" />
+                <img src="./images/shield.png" alt="shield" />
+                <img src="./images/shield.png" alt="shield" />
+              </div>
+            </div>
+
+            <div class="stats">
+              <div class="stats__buttons">
+                <button class="stats__button">Все сезоны</button>
+                <button class="stats__button">Сезон 2020/21</button>
+              </div>
+              <div class="stats__cards">
+                <div class="stats__card">
+                  <p class="stats__name">Игры</p>
+                  <p class="stats__num">36</p>
+                </div>
+                <div class="stats__card">
+                  <p class="stats__name">Гол</p>
+                  <p class="stats__num">67</p>
+                </div>
+                <div class="stats__card">
+                  <p class="stats__name">Пас</p>
+                  <p class="stats__num">136</p>
+                </div>
+                <div class="stats__card">
+                  <p class="stats__name">Гол + пас</p>
+                  <p class="stats__num">136</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cross"></div>
+
+            <div class="share">
+              <p class="share__text">Поделиться</p>
+              <div class="share__images">
+                <img class="share__image" src="./images/vk.png" alt="vk" />
+                <img class="share__image" src="./images/fb.png" alt="fb" />
+                <img src="./images/link.png" alt="link" />
+              </div>
+            </div>
+          </article>
+
+          <select class="format">
+            <option>Формат</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+
+          <article class="table">
+            <table class="table__sort">
+              <thead class="table__head">
+                <tr>
+                  <th style="pointer-events: none">Сезон</th>
+                  <th><img class="table__arrow" src="./images/up-down.png" alt="up-down" />Кол-во игр</th>
+                  <th><img class="table__arrow" src="./images/up-down.png" alt="up-down" />Гол</th>
+                  <th><img class="table__arrow" src="./images/up-down.png" alt="up-down" />Пас</th>
+                  <th><img class="table__arrow" src="./images/up-down.png" alt="up-down" />Гол+Пас</th>
+                  <th><img class="table__arrow" src="./images/up-down.png" alt="up-down" />Рейтинг</th>
+                </tr>
+              </thead>
+              <tbody class="tbody">
+                <tr>
+                  <td>Сезон 2021/2020</td>
+                  <td>5</td>
+                  <td>218</td>
+                  <td>146</td>
+                  <td>432</td>
+                  <td>50.40</td>
+                </tr>
+                <tr>
+                  <td>Сезон 2020/2019</td>
+                  <td>7</td>
+                  <td>242</td>
+                  <td>122</td>
+                  <td>213</td>
+                  <td>84.40</td>
+                </tr>
+                <tr>
+                  <td>Сезон 2019/2018</td>
+                  <td>6</td>
+                  <td>173</td>
+                  <td>164</td>
+                  <td>321</td>
+                  <td>45.40</td>
+                </tr>
+                <tr>
+                  <td>Сезон 2018/2017</td>
+                  <td>1</td>
+                  <td>157</td>
+                  <td>145</td>
+                  <td>112</td>
+                  <td>79.40</td>
+                </tr>
+                <tr>
+                  <td>Сезон 2017/2016</td>
+                  <td>2</td>
+                  <td>174</td>
+                  <td>102</td>
+                  <td>345</td>
+                  <td>99.40</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+        </section>
+      </div>
+
+      <div class="popup popup-menu">
+        <div class="popup__content-menu">
+          <div class="popup__menu-head">
+            <img
+              src="./images/LogoBlack.svg"
+              alt="logo burger"
+              class="popup__menu-title"
+            />
+            <img
+              src="./images/close.svg"
+              alt="close"
+              class="popup__close popup__menu-close"
+            />
+          </div>
+          <ul class="popup__menu-items">
+            <li class="popup__menu-item">
+              <a class="popup__menu-link" href="#">Расписание</a>
+            </li>
+            <li class="popup__menu-item">
+              <a
+                class="popup__menu-link "
+                href="#"
+                >Игровые отчёты</a
+              >
+            </li>
+            <li class="popup__menu-item">
+              <a
+                class="popup__menu-link "
+                href="#"
+                >Статистика</a
+              >
+            </li>
+            <li class="popup__menu-item">
+              <a
+                class="popup__menu-link "
+                href="#"
+                >Ещё</a
+              >
+            </li>
+          </ul>
+          <div class="popup__menu-foot">
+            <img
+              src="./images/avaMax.png"
+              alt="logo burger"
+              class="popup__menu-avatar"
+            />
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footer__info">
+          <div class="footer__logos">
+            <img class="footer__logo" src="./images/logoBlack.svg" alt="logo" />
+            <div class="footer__shops">
+              <img
+                class="footer__shop"
+                src="./images/google.png"
+                alt="google"
+              />
+              <img
+                class="footer__shop"
+                src="./images/apple.png"
+                alt="apple"
+              />
+            </div>
+            <div class="footer__icons_320">
+              <img src="./images/vib.png" alt="vib" />
+              <img src="./images/youtube.png" alt="youtube" />
+              <img src="./images/teleg.png" alt="teleg" />
+              <img src="./images/inst.png" alt="inst" />
+              <img src="./images/vk.png" alt="vk" />
+              <img src="./images/fb.png" alt="fb" />
+            </div>
+            <p class="footer__contacts">Наши контакты</p>
+            <div class="footer__contact">
+              <img
+                class="footer__image"
+                src="./images/phone.png"
+                alt="phone"
+              />+7 (495) 109-03-09
+            </div>
+            <div class="footer__contact">
+              <img
+                class="footer__image"
+                src="./images/mail.png"
+                alt="mail"
+              />go@crossball.ru
+            </div>
+          </div>
+          <div class="footer__columns">
+            <div class="footer__column">
+              <h3 class="footer__title">Разделы</h3>
+              <p class="footer__text">Главная</p>
+              <p class="footer__text">Расписание</p>
+              <p class="footer__text">Игровые отчёты</p>
+              <p class="footer__text">Статистика</p>
+            </div>
+            <div class="footer__column">
+              <h3 class="footer__title">Виды спорта</h3>
+              <p class="footer__text">Футбол</p>
+              <p class="footer__text">Баскетбол</p>
+              <p class="footer__text">Волейбол</p>
+            </div>
+            <div class="footer__column">
+              <h3 class="footer__title">Полезное</h3>
+              <p class="footer__text">Как записаться?</p>
+              <p class="footer__text">Ответы на вопросы</p>
+              <p class="footer__text">Достижения</p>
+            </div>
+            <div class="footer__column">
+              <h3 class="footer__title">Чё почём</h3>
+              <p class="footer__text">Абонименты</p>
+              <p class="footer__text">Корп. клиентам</p>
+              <p class="footer__text">Партнёры</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer__line"></div>
+        <div class="footer__copyright">
+          <p class="footer__span">&#169;&nbsp;Все права защищены</p>
+          <div class="footer__icons">
+            <img src="./images/vib.png" alt="vib" />
+            <img src="./images/youtube.png" alt="youtube" />
+            <img src="./images/teleg.png" alt="teleg" />
+            <img src="./images/inst.png" alt="inst" />
+            <img src="./images/vk.png" alt="vk" />
+            <img src="./images/fb.png" alt="fb" />
+          </div>
+          <p class="footer__span">Cделали в Spans</p>
+        </div>
+      </footer>
+    </main>
+    <script type="text/javascript">
+      const table = document.querySelector(".table__sort");
+      const burger = document.querySelector(".header__burger");
+      const popup = document.querySelector(".popup");
+      const close = document.querySelector(".popup__close");
+
+      let colIndex = -1;
+
+      const sortTable = function (index, isSorted) {
+        const tbody = table.querySelector("tbody");
+
+        const compare = function (rowA, rowB) {
+          return rowA.cells[index].innerHTML - rowB.cells[index].innerHTML;
+        };
+
+        let rows = [].slice.call(tbody.rows);
+
+        rows.sort(compare);
+        if (isSorted) {
+          rows.reverse();
+        }
+
+        table.removeChild(tbody);
+
+        for (let i = 0; i < rows.length; i++) {
+          tbody.appendChild(rows[i]);
+        }
+
+        table.appendChild(tbody);
+      };
+
+      table.addEventListener("click", (e) => {
+        const elem = e.target;
+        if (elem.nodeName !== "TH") return;
+
+        const index = elem.cellIndex;
+        sortTable(index, colIndex == index);
+        colIndex = colIndex == index ? -1 : index;
+      });
+
+      burger.addEventListener('click', ()=>{popup.classList.add("popup_is-opened");})
+      close.addEventListener('click', ()=>{popup.classList.remove("popup_is-opened");})
+
+    </script>
+  </body>
+</html>
